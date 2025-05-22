@@ -59,3 +59,18 @@ def train_and_log_model(input_csv: str, target_column: str = 'MEDV'):
 
 if __name__ == "__main__":
     train_and_log_model(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'BostonHousing_raw.csv')))
+
+# Docker commands (to be run in GitHub Actions or similar CI/CD)
+# - name: Build Docker image
+#   run: |
+#     docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/mlflow-bostonhousing:latest MLProject
+
+# - name: Log in to Docker Hub
+#   uses: docker/login-action@v3
+#   with:
+#     username: ${{ secrets.DOCKERHUB_USERNAME }}
+#     password: ${{ secrets.DOCKERHUB_TOKEN }}
+
+# - name: Push Docker image to Docker Hub
+#   run: |
+#     docker push ${{ secrets.DOCKERHUB_USERNAME }}/mlflow-bostonhousing:latest
