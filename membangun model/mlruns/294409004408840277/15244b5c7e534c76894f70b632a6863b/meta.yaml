@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/294409004408840277/15244b5c7e534c76894f70b632a6863b/artifacts
+end_time: 1747907057711
+entry_point_name: ''
+experiment_id: '294409004408840277'
+lifecycle_stage: active
+run_id: 15244b5c7e534c76894f70b632a6863b
+run_name: zealous-perch-31
+run_uuid: 15244b5c7e534c76894f70b632a6863b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747907042447
+status: 3
+tags: []
+user_id: Asus

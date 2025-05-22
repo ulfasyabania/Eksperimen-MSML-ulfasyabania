@@ -1,0 +1,6 @@
+DagsHub MLflow Experiment: https://dagshub.com/ulfasyabania/Eksperimen_MSML_ulfasyabania.mlflow
+DagsHub MLflow Dashboard: https://dagshub.com/ulfasyabania/Eksperimen_MSML_ulfasyabania/experiments
+
+Tautan run dan eksperimen DagsHub:
+https://dagshub.com/ulfasyabania/Eksperimen_MSML_ulfasyabania.mlflow/#/experiments/0/runs/d6650333d02146af971089021206ed65
+https://dagshub.com/ulfasyabania/Eksperimen_MSML_ulfasyabania.mlflow/#/experiments/0?searchFilter=&orderByKey=attributes.start_time&orderByAsc=false&startTime=ALL&lifecycleFilter=Active&modelVersionFilter=All+Runs&datasetsFilter=W10%3D
