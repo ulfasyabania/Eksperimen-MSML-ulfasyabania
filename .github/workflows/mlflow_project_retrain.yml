@@ -1,3 +1,5 @@
+# MLflow Project retraining workflow for CI
+# This workflow will run MLflow Project retraining when triggered
 name: MLflow Project Retrain CI
 
 on:

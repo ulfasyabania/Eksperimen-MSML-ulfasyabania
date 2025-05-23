@@ -1,0 +1,36 @@
+name: Preprocess Boston Housing Data
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'preprocessing/automate_MSML_ulfasyabania.py'
+      - 'preprocessing/BostonHousing_preprocessed.csv'
+      - 'BostonHousing_raw.csv'
+
+jobs:
+  preprocess:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas scikit-learn
+
+      - name: Run preprocessing script and save output
+        run: |
+          python -c "import pandas as pd; from preprocessing.automate_MSML_ulfasyabania import preprocess_boston_housing; X, y = preprocess_boston_housing('BostonHousing_raw.csv'); df_out = pd.concat([X, y], axis=1); df_out.to_csv('preprocessing/BostonHousing_preprocessed_latest.csv', index=False)"
+
+      - name: Upload processed dataset artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: bostonhousing-preprocessed
+          path: preprocessing/BostonHousing_preprocessed_latest.csv

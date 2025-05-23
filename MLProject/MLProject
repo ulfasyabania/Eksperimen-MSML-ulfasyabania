@@ -1,0 +1,9 @@
+name: mlflow_retrain
+
+conda_env: conda.yaml
+
+entry_points:
+  main:
+    parameters:
+      input_csv: {type: str, default: "bostonhousing_preprocessing.csv"}
+    command: "python modelling.py --input_csv {input_csv}"

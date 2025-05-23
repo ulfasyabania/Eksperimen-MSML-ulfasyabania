@@ -1,0 +1,4 @@
+# Dummy preprocessed dataset for MLflow Project
+# Ganti dengan file hasil preprocessing yang sebenarnya
+CRIM,ZN,INDUS,CHAS,NOX,RM,AGE,DIS,RAD,TAX,PTRATIO,B,LSTAT,MEDV
+0,0,0,0,0,0,0,0,0,0,0,0,0,0

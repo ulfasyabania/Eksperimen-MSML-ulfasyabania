@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/428018454934117017/0945fdbd4b0a4f29a9da924bd8d560fd/artifacts
+end_time: 1747907441453
+entry_point_name: ''
+experiment_id: '428018454934117017'
+lifecycle_stage: active
+run_id: 0945fdbd4b0a4f29a9da924bd8d560fd
+run_name: enchanting-squid-652
+run_uuid: 0945fdbd4b0a4f29a9da924bd8d560fd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747907398275
+status: 4
+tags: []
+user_id: Asus

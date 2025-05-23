@@ -1,0 +1,32 @@
+artifact_path: model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.1
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+mlflow_version: 2.18.0
+model_size_bytes: 3499493
+model_uuid: 31936d8e07e54bdcaf5e7bba3d46edd8
+run_id: 15244b5c7e534c76894f70b632a6863b
+signature:
+  inputs: '[{"type": "double", "name": "CRIM", "required": true}, {"type": "double",
+    "name": "ZN", "required": true}, {"type": "double", "name": "INDUS", "required":
+    true}, {"type": "double", "name": "CHAS", "required": true}, {"type": "double",
+    "name": "NOX", "required": true}, {"type": "double", "name": "RM", "required":
+    true}, {"type": "double", "name": "AGE", "required": true}, {"type": "double",
+    "name": "DIS", "required": true}, {"type": "double", "name": "RAD", "required":
+    true}, {"type": "double", "name": "TAX", "required": true}, {"type": "double",
+    "name": "PTRATIO", "required": true}, {"type": "double", "name": "B", "required":
+    true}, {"type": "double", "name": "LSTAT", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1]}}]'
+  params: null
+utc_time_created: '2025-05-22 09:44:04.448909'

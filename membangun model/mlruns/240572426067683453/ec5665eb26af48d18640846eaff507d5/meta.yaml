@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/240572426067683453/ec5665eb26af48d18640846eaff507d5/artifacts
+end_time: 1747909847532
+entry_point_name: ''
+experiment_id: '240572426067683453'
+lifecycle_stage: active
+run_id: ec5665eb26af48d18640846eaff507d5
+run_name: treasured-fly-793
+run_uuid: ec5665eb26af48d18640846eaff507d5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747909608471
+status: 3
+tags: []
+user_id: Asus

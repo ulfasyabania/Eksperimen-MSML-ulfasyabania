@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/294409004408840277/8803ff6a4fa747169d5190a83569cb28/artifacts
+end_time: 1747906598951
+entry_point_name: ''
+experiment_id: '294409004408840277'
+lifecycle_stage: active
+run_id: 8803ff6a4fa747169d5190a83569cb28
+run_name: spiffy-colt-894
+run_uuid: 8803ff6a4fa747169d5190a83569cb28
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747906552420
+status: 4
+tags: []
+user_id: Asus
